@@ -1,6 +1,6 @@
 import React from 'react'
 import ScrollToTop from '../components/ScrollToTop'
-import Donate from '../Donate'
+import Donate from '../Donate/containers/App'
 
 const DonatePage = () => {
   return (

@@ -1,32 +1,44 @@
-import React from 'react'
-import index from '../pages/index'
-import { Container, FormWrap, Icon, FormContent, Form, FormInput, FormH1, FormLabel, FormButton, Text } from './DonateElements'
+import React from "react";
+import index from "../pages/index";
+import {
+  Container,
+  FormWrap,
+  Icon,
+  FormContent,
+  Form,
+  FormInput,
+  FormH1,
+  FormLabel,
+  FormButton,
+  Text,
+} from "./DonateElements";
 
 const Donate = () => {
   return (
     <>
       <Container>
         <FormWrap>
-          <Icon to='/'>Khwahish</Icon>
+          <Icon to="/">Khwahish</Icon>
           <FormContent>
             <Form action={index}>
               <FormH1>You are donating to : Khwahish Foundation</FormH1>
-              <FormLabel htmlFor='for'>How much books you want to Donate</FormLabel>
-                <FormInput htmlFor='number' required />
-              <FormLabel htmlFor='for'>Password</FormLabel>
-                <FormInput htmlFor='password' required />
-              <FormButton type='submit' >Continue</FormButton>
+              <FormLabel htmlFor="for">
+                How much books you want to Donate
+              </FormLabel>
+              <FormInput htmlFor="number" required />
+              <FormLabel htmlFor="for">Password</FormLabel>
+              <FormInput htmlFor="password" required />
+              <FormButton type="submit">Continue</FormButton>
               <Text>Forgot password</Text>
             </Form>
           </FormContent>
         </FormWrap>
       </Container>
     </>
-  )
-}
+  );
+};
 
-export default  Donate
-
+export default Donate;
 
 /*<div className="greennature-payment-lightbox-overlay" id="greennature-payment-lightbox-overlay"></div>
 <div className="greennature-payment-lightbox-container" id="greennature-payment-lightbox-container">
