@@ -22,7 +22,7 @@
   .App {
     max-height: 45rem;
     max-width: 61rem;
-    border-radius: 1rem;
+    
     flex-direction: row;
     justify-content: space-between;
   }
