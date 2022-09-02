@@ -12,6 +12,9 @@ function App() {
         <Route path='/' component={Home} exact />
         <Route path='/signin' component={SigninPage} exact />
         <Route path='/donate' component={DonatePage} exact />
+        
+        
+        
       </Switch>
     </Router>
   );
