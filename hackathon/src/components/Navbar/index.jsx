@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react'
 import { FaBars } from 'react-icons/fa'
+import image from '../../images/logo.jpeg'
 import {IconContext} from 'react-icons/lib'
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink } from './NavbarElements'
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavLinks, NavItem, NavBtn, NavBtnLink , NavBtnLink1 } from './NavbarElements'
 import { animateScroll as scroll } from 'react-scroll';
 
 const Navbar = ({ toggle }) => {
@@ -27,7 +28,8 @@ const Navbar = ({ toggle }) => {
     <IconContext.Provider value={{ color: '#fff'}}>
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
-          <NavLogo to='/' onClick={toggleHome}>Khwahish</NavLogo>
+          <img src={image} alt='mew'></img>
+          <NavLogo to='/' onClick={toggleHome}></NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
@@ -43,15 +45,15 @@ const Navbar = ({ toggle }) => {
               >What We Do</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='services'
+              <NavLinks to=''
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
               
-              >Request Books</NavLinks>
+              ><NavBtnLink1 to='/App'>Request Books</NavBtnLink1></NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='signup'
+              <NavLinks to=''
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              >Exchange</NavLinks>
+              ><NavBtnLink1 to='/App'>Exchange</NavBtnLink1></NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='services'

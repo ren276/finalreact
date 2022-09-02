@@ -6,9 +6,7 @@ const HelpUs = () => {
     <section className={classes.HelpUs}>
       <HelpUsTitle />
       <p className={classes.HelpUsParagraph}>
-        We'll get right to the point: we're asking you to support us. We're a
-        nonprofit that relies on support from people like you. If everyone
-        reading this gives $10 monthly, we can thrive for years.
+        We'll get right to the point:<br></br><br></br>We want you donate your old and used books so that we can distribute them among many NGO's
       </p>
     </section>
   );

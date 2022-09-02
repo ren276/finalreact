@@ -4,7 +4,7 @@ const GiftFrequency = () => {
   return (
     <div className={classes.GiftFrequency}>
       <header className={classes.Title}>
-        <h4>Gift frequency</h4>
+        <h4>Frequency</h4>
       </header>
       <fieldset className={classes.Frequency}>
         <div className={classes.RadioWrapper}>

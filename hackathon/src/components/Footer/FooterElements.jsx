@@ -86,7 +86,7 @@ export const SocialLogo = styled(Link)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-bottom: 16px;
+  margin-bottom: 3px;
   font-weight: bold;
 `
 export const WebsiteRights = styled.small`

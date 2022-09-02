@@ -1,14 +1,15 @@
 import React from 'react'
 import ScrollToTop from '../components/ScrollToTop'
-import Books from '../Books/index'
+import Meet from '../MeetUp/month/MonthlyCalendar'
 
-const books = () => {
+const meet = () => {
   return (
     <>
     <ScrollToTop />
-      <Books />
+      <Meet />
     </>
+    
   )
 }
 
-export default books
+export default meet

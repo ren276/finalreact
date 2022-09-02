@@ -9,7 +9,7 @@ const Agreement = () => {
         id='agreement-checkbox'
       />
       <label htmlFor='agreement-checkbox'>
-        Yes, I’ll generously add $0.75 each month to cover the transaction fees.
+        I PLEDGE TO DONATE THESE BOOKS TO WIN A SMILE !
       </label>
     </fieldset>
   );

@@ -9,7 +9,7 @@ const NameInput = () => (
       id='name-input'
       placeholder='Enter your name'
     />
-    <a href='/'>Click here to give in honor of other person</a>
+    <a href=''>Click here to give in honor of other person</a>
   </fieldset>
 );
 

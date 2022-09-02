@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { FooterContainer, FooterWrap, FooterLinkWrapper, FooterLinkItems, FooterLinkContainer, FooterLinkTitle, FooterLink, SocialIconLink, SocialIcons, SocialLogo, SocialMedia, SocialMediaWrap, WebsiteRights } from './FooterElements'
 import { animateScroll as scroll } from 'react-scroll';
+import logo from '../../images/logo.jpeg'
 
 const Footer = () => {
   const toggleHome = () => {
@@ -17,6 +18,7 @@ const Footer = () => {
               <FooterLinkTitle>About us</FooterLinkTitle>
                 <FooterLink to='/'>How we work</FooterLink>
                 <FooterLink to='/'>Testimonials</FooterLink>
+                <a href='https://forms.gle/kBgYVuESM713P5vx8'>Survey Form</a>
                 
                 
                 
@@ -24,18 +26,19 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
                 <FooterLink to='/'>Contact</FooterLink>
-                <FooterLink to='/'>Support</FooterLink>
+                <FooterLink to='/'>Feedback</FooterLink>
                 
-                <FooterLink to='/'>Volunteer</FooterLink>
+                
+                <FooterLink to='/'>Volunteers</FooterLink>
             </FooterLinkItems>
           </FooterLinkWrapper>
 
           <FooterLinkWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Videos</FooterLinkTitle>
-                <FooterLink to='/'>Submit Video</FooterLink>
-                <FooterLink to='/'>Ambassadors</FooterLink>
-                <FooterLink to='/'>Agency</FooterLink>
+              <FooterLinkTitle>Meet Up</FooterLinkTitle>
+                 
+                <FooterLink to='/meet'>Cities</FooterLink>
+                <FooterLink to='/'>Community Meets</FooterLink>
                 <FooterLink to='/'>Influencer</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
@@ -49,7 +52,7 @@ const Footer = () => {
         </FooterLinkContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/' onClick={toggleHome}>
+            <SocialLogo to='' onClick={toggleHome}>
               Khwahish
             </SocialLogo>
             <WebsiteRights>Khwahish © {new Date().getFullYear()} All rights reserved.</WebsiteRights>

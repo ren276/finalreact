@@ -85,3 +85,21 @@ export const Img = styled.img`
   margin: 0 0 10px 0;
   padding-right: 0;
 `;
+
+export const HeroBg = styled.div`
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+`
+export const VideoBg = styled.video`
+  width: 100%;
+  height: 75%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: #232a34;
+`

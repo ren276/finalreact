@@ -6,6 +6,7 @@
 .HelpUs {
   color: var(--white);
   flex: 1;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 @media (min-width: 1200px) {
