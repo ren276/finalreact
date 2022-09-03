@@ -1,6 +1,7 @@
 import React from 'react'
 import img1 from '../../images/comm.jpeg'
-
+import img2 from '../../images/meet.jpeg'
+import meet from '../../MeetUp/index'
 import { Button } from '../ButtonElements'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'
 
@@ -16,7 +17,7 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
                 <Heading lightText={lightText}>{headline}</Heading>
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
-                  <Button to='meet'
+                  <Button to='/meet'
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -33,6 +34,7 @@ const Info = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, de
             <Column2>
               <ImgWrap>
                 <Img src={img1} alt={alt}/>
+                <Img src={img2} alt={alt}/>
                 
               </ImgWrap>
             </Column2>

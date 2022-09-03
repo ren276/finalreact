@@ -53,7 +53,7 @@ const Navbar = ({ toggle }) => {
             <NavItem>
               <NavLinks to=''
               smooth={true} duration={500} spy={true} exact='true' offset={-80}
-              ><NavBtnLink1 to='/App'>Exchange</NavBtnLink1></NavLinks>
+              ><NavBtnLink1 to='/trade'>Exchange</NavBtnLink1></NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to='services'
@@ -62,7 +62,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+            <NavBtnLink to='/trade'>Sign In</NavBtnLink>
           </NavBtn>
           <NavBtn>
             <NavBtnLink to='/donate'>Donate</NavBtnLink>

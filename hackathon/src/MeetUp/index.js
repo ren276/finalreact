@@ -1,5 +1,5 @@
 import React from 'react'
-import './meetup.css'
+
 import Navbar from '../components/Navbar/index'
 
 const meet = () => {

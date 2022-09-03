@@ -5,6 +5,7 @@ import SigninPage from './pages/signin';
 import DonatePage from './pages/donate';
 import Books from './pages/books'
 import Meet from './pages/meet'
+import trade from './Trade/trade'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/donate' component={DonatePage} exact />
         <Route path='/App' component={Books} exact />
         <Route path='/meet' component={Meet} exact />
+        <Route path='/trade' component={trade} exact />
 
         
       </Switch>
